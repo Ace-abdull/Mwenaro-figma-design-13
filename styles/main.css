@@ -1,191 +1,205 @@
 /* RESET */
-*{box-sizing:border-box;margin:0;padding:0}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-body{
-  background:#e8e8e8;
-  font-family:"Georgia",serif;
+body {
+  background: #e8e8e8;
+  font-family: "Georgia", serif;
 }
 
 /* main wrapper */
-.main-wrapper{
-  position:relative;
-  max-width:1200px;
-  height:750px;
-  margin:40px auto;
-  padding:80px 60px;
-  background:linear-gradient(135deg,#cfe8e1,#dcd4f3,#f2e1b7);
-  overflow:hidden;
+.main-wrapper {
+  position: relative;
+  max-width: 1200px;
+  height: 750px;
+  margin: 40px auto;
+  padding: 80px 60px;
+  background: linear-gradient(135deg, #cfe8e1, #dcd4f3, #f2e1b7);
+  overflow: hidden;
 }
 
 /* header section */
-.header-section-wrapper{
-  padding-top:60px;
-  position:relative;
-  z-index:2;
+.header-section-wrapper {
+  padding-top: 60px;
+  position: relative;
+  z-index: 2;
 
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-  align-items:center;
-  text-align:center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
 
-  max-width:420px;
-  margin:0 auto;
+  max-width: 420px;
+  margin: 0 auto;
+
+  background: url("/images/gradient.png") center/cover no-repeat;
 }
 
 /* main heading */
-.main-heading{
-  font-size:78px;
-  line-height:1.05;
-  font-weight:500;
-  color:#1f1f1f;
-  text-align:center;
+.main-heading {
+  font-size: 78px;
+  line-height: 1.05;
+  font-weight: 500;
+  color: #1f1f1f;
+  text-align: center;
 }
-.main-heading span{display:block}
+.main-heading span {
+  display: block;
+}
 
 /* tagline */
-.tagline{
-  max-width:320px;
-  font-size:20px;
-  font-weight:400;
-  line-height:32px;
-  color:#252525cc;
-  text-align:center;
-  text-wrap:balance;
+.tagline {
+  max-width: 320px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #252525cc;
+  text-align: center;
+  text-wrap: balance;
 }
 
 /* cta button */
-.cta-button{
-  display:inline-block;
-  padding:14px 34px;
-  border-radius:999px;
-  background:#1f1f1f;
-  color:#fff;
-  font-size:15px;
-  font-weight:500;
-  border:none;
-  cursor:pointer;
-  transition:all .2s ease;
+.cta-button {
+  display: inline-block;
+  padding: 14px 34px;
+  border-radius: 999px;
+  background: #1f1f1f;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
-.cta-button:hover{
-  background:#000;
-  transform:translateY(-1px);
+.cta-button:hover {
+  background: #000;
+  transform: translateY(-1px);
 }
 
 /* text content container */
-.text-content-container{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
+.text-content-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
 
 /* paragraph containers (shared) */
 .top-left-paragraph-container,
-.bottom-right-paragraph-container{
-  position:absolute;
-  max-width:280px;
-  color:#6b6b6b;
+.bottom-right-paragraph-container {
+  position: absolute;
+  max-width: 280px;
+  color: #6b6b6b;
 }
 
 /* numbers inside paragraph containers */
 .top-left-paragraph-container h1,
-.bottom-right-paragraph-container h1{
-  font-size:20px;
-  color:#252525cc;
-  font-weight:500;
-  margin-bottom:8px;
+.bottom-right-paragraph-container h1 {
+  font-size: 20px;
+  color: #252525cc;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
 /* paragraphs (shared) */
 .top-left-paragraph,
-.bottom-right-paragraph{
-  font-size:15px;
-  font-weight:400;
-  color:#252525cc;
-  line-height:1.6;
-  text-wrap:balance;
+.bottom-right-paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  color: #252525cc;
+  line-height: 1.6;
+  text-wrap: balance;
 }
 
 /* top left paragraph container */
-.top-left-paragraph-container{
-  top:40px;
-  left:60px;
+.top-left-paragraph-container {
+  top: 40px;
+  left: 60px;
 }
 
 /* bottom right paragraph container */
-.bottom-right-paragraph-container{
-  bottom:60px;
-  right:60px;
+.bottom-right-paragraph-container {
+  bottom: 60px;
+  right: 60px;
 }
 
 /* float images container */
-.float-images-container{
-  position:absolute;
-  inset:0;
+.float-images-container {
+  position: absolute;
+  inset: 0;
 }
 
 /* sparks container */
-.sparks-image-container{position:absolute}
+.sparks-image-container {
+  position: absolute;
+}
 
 /* spark image */
-.spark-image-container img{
-  width:200px;
-  opacity:.6;
-  border-color:black;
+.spark-image-container img {
+  width: 200px;
+  opacity: 0.6;
+  border-color: black;
 }
 
 /* first spark */
-.sparks-image-container .spark-image-container:first-child{
-  position:absolute;
-  top:160px;
-  left:250px;
+.sparks-image-container .spark-image-container:first-child {
+  position: absolute;
+  top: 160px;
+  left: 250px;
 }
 
 /* second spark */
-.sparks-image-container .spark-image-container:last-child{
-  position:absolute;
-  top:340px;
-  left:720px;
+.sparks-image-container .spark-image-container:last-child {
+  position: absolute;
+  top: 340px;
+  left: 720px;
 }
 
 /* explosion image */
-.explosion-image-container{
-  position:absolute;
-  top:190px;
-  left:110px;
+.explosion-image-container {
+  position: absolute;
+  top: 190px;
+  left: 110px;
 }
-.explosion-image-container img{width:130px}
+.explosion-image-container img {
+  width: 130px;
+}
 
 /* party image */
-.party-image-container{
-  position:absolute;
-  bottom:140px;
-  right:120px;
+.party-image-container {
+  position: absolute;
+  bottom: 140px;
+  right: 120px;
 }
-.party-image-container img{width:130px}
+.party-image-container img {
+  width: 130px;
+}
 
 /* top image */
-.top-image-container{
-  position:absolute;
-  top:40px;
-  right:80px;
+.top-image-container {
+  position: absolute;
+  top: 40px;
+  right: 80px;
 }
-.top-image-container img{
-  width:280px;
-  height:380px;
-  object-fit:cover;
-  border-radius:140px 140px 0 0;
+.top-image-container img {
+  width: 280px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 140px 140px 0 0;
 }
 
 /* bottom image */
-.bottom-image-container{
-  position:absolute;
-  bottom:40px;
-  left:80px;
+.bottom-image-container {
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
 }
-.bottom-image-container img{
-  width:280px;
-  height:380px;
-  object-fit:cover;
-  border-radius:140px 140px 0 0;
+.bottom-image-container img {
+  width: 280px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 140px 140px 0 0;
 }
