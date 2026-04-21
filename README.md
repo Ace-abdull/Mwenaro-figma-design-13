@@ -74,13 +74,27 @@ This allows precise control to match the Figma layout.
   ```css
   max-width
   text-wrap: balance;
----
-### 6. Component-Based Thinking (Without Frameworks)
 
-  ```
+---
+
+### 6. Component-Based Thinking (Without Frameworks)
 
 Each UI part behaves like a component:
 
-- `header-section-wrapper` → Hero
-- `text-content-container` → Info blocks
-- `float-images-container` → Visual elements
+- `header-section-wrapper` → Hero  
+- `text-content-container` → Info blocks  
+- `float-images-container` → Visual elements  
+
+---
+
+## 📷 Preview
+
+The original design reference image is included in the `/images` folder for easy comparison.  
+Alternatively, this is **Design #6** from the Figma challenge:  
+https://www.figma.com/design/3EO3gS5FJAXmZsobOArP9B/50--Landing-page-designs--Community-?node-id=801-2256&p=f&t=lkXGMfKZUbtJii6k-0
+
+---
+
+## 👨‍💻 Author
+
+Built as part of a **frontend speed implementation challenge**, focusing on real-world UI replication using core web technologies.
