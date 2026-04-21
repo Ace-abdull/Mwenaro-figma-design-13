@@ -90,7 +90,7 @@ Each UI part behaves like a component:
 ## 📷 Preview
 
 The original design reference image is included in the `/images` folder for easy comparison.  
-Alternatively, this is **Design #6** from the Figma challenge:  
+Alternatively, this is **Design #13** from the Figma challenge:  
 https://www.figma.com/design/3EO3gS5FJAXmZsobOArP9B/50--Landing-page-designs--Community-?node-id=801-2256&p=f&t=lkXGMfKZUbtJii6k-0
 
 ---
